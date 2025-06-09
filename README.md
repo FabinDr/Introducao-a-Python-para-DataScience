@@ -1,4 +1,4 @@
-﻿# Intrudução a Python para DataScience
+﻿# Introdução a Python para DataScience
 
 <p>
   print("Olá mundo!")
