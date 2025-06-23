@@ -120,3 +120,21 @@ media_ponderada = (5*1 + 12*2 + 20*3 + 15*4) / (1+2+3+4);
 print(f"A média é: {media_ponderada}");
 
 # -------------- Editando textos ---------------
+
+#1. Crie um código que solicite uma frase à pessoa usuária e imprima a mesma frase digitada mas com todas as letras maiúsculas.
+frase = input('Escreva uma frase: \n');
+print(frase.upper());
+
+#2. Crie um código que solicite uma frase à pessoa usuária e imprima a mesma frase digitada mas com todas as letras minúsculas.
+frase = input('Escreva uma frase: \n');
+print(frase.lower());
+
+#3. Crie uma variável chamada “frase” e atribua a ela uma string de sua escolha. Em seguida, imprima a frase sem espaços em branco no início e no fim.
+frase = "Como estamos? by: Scrum Master";
+print(frase.split())
+
+#4. Crie um código que solicite uma frase à pessoa usuária e imprima a mesma frase com todas as vogais “e” trocadas pela letra “f”
+
+frase = input('Escreva uma frase: \n');
+print(frase.replace('e', 'f'));
+
